@@ -3,16 +3,14 @@ package ClassesExercise;
 public class Demo {
 	public static void main(String[] args) {
 		
-		Author author = new Author(120, "Aditya", "Sharma");
-		System.out.println(author);
-		
-		Publisher publisher = new Publisher();
-		System.out.println(publisher);
-		
-		Book book = new Book();
-		System.out.println(book);
-		
-		System.out.println("Hello");
+		int n = 100;
+        String s = String.valueOf(n);
+        if(s.getClass() == "String"){
+            System.out.println("Good Job");
+        }elseif{
+            System.out.println("Wrong Answer");
+        }
+        System.out.print(s.getClass());
 		
 		
 	}
