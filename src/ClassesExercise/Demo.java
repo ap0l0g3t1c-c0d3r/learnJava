@@ -5,13 +5,18 @@ public class Demo {
 		
 		int n = 100;
         String s = String.valueOf(n);
-        if(s.getClass() == "String"){
+        if(s.getClass() == String){
             System.out.println("Good Job");
-        }elseif{
+        }else{
             System.out.println("Wrong Answer");
         }
+
+
+
+
+
+        System.out.print("Hi trial");
         System.out.print(s.getClass());
-		
 		
 	}
 }
